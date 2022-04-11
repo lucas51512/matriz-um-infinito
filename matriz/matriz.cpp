@@ -18,11 +18,11 @@ int main(){
     int matriz[numeroDeLinhas][numeroDeColunas];
 
     for(int i = 0; i < numeroDeLinhas; i++){
-            cout << "[ ";
+            cout << "[  ";
         for(int j = 0; j < numeroDeColunas; j++){
             matriz[i][j] = contador;
             contador++;
-            cout << matriz[i][j];
+            cout << matriz[i][j] << " ";
         }
         cout << " ]";
         cout << endl;
