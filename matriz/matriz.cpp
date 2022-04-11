@@ -22,7 +22,7 @@ int main(){
         for(int j = 0; j < numeroDeColunas; j++){
             matriz[i][j] = contador;
             contador++;
-            cout << matriz[i][j] << " ";
+            cout << matriz[i][j];
         }
         cout << " ]";
         cout << endl;
